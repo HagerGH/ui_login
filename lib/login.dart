@@ -110,7 +110,10 @@ class LogIn extends StatelessWidget {
                               height: 25,
                             ),
 
-                            CustomButton(title: 'SIGN IN',onTap: (){},),
+                            Padding(
+                              padding: const EdgeInsets.only(right: 5.0,left: 5.0,bottom: 7.0),
+                              child: CustomButton(title: 'SIGN IN',onTap: (){},),
+                            ),
                           ],
                         )),
                     ],
